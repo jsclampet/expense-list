@@ -29,6 +29,7 @@ const App = () => {
           setExpenses(expenses.filter((expense) => expense.id !== id))
         }
       />
+      f
     </div>
   );
 };
