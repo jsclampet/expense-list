@@ -11,8 +11,10 @@ const ExpenseForm = () => {
         <input type="text" className="form-control" />
       </div>
       <div className="mb-3">
-        <label htmlFor="" className="form-lable"></label>
-        <input type="number" className="form-control" />
+        <label htmlFor="" className="form-lable">
+          Amount
+        </label>
+        <input id="amount" type="number" className="form-control" />
       </div>
     </form>
   );
